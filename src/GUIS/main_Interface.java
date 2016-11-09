@@ -87,7 +87,7 @@ public class main_Interface extends javax.swing.JFrame {
         jPanel3 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
         jScrollPane10 = new javax.swing.JScrollPane();
-        jTable5 = new javax.swing.JTable();
+        jTble_Memory_Map = new javax.swing.JTable();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu_ItemOPen = new javax.swing.JMenuItem();
@@ -297,7 +297,7 @@ public class main_Interface extends javax.swing.JFrame {
 
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Loader"));
 
-        jTable5.setModel(new javax.swing.table.DefaultTableModel(
+        jTble_Memory_Map.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
@@ -308,7 +308,7 @@ public class main_Interface extends javax.swing.JFrame {
                 "Dirs", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"
             }
         ));
-        jScrollPane10.setViewportView(jTable5);
+        jScrollPane10.setViewportView(jTble_Memory_Map);
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -610,7 +610,7 @@ public class main_Interface extends javax.swing.JFrame {
     private javax.swing.JPopupMenu.Separator jSeparator2;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTable jTable4;
-    private javax.swing.JTable jTable5;
+    private javax.swing.JTable jTble_Memory_Map;
     private javax.swing.JTextArea jText_Errores;
     private javax.swing.JTextArea j_txt_Number_Line;
     private javax.swing.JTextArea j_txt_cp;
